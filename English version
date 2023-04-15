@@ -1,0 +1,8 @@
+Talking a little bit about AWS IAM
+
+It is the way that we can authenticate and be authorized to access AWS services, we can connect to it through (Console, CLI or API), all is about to authenticate to send requests.
+
+We also have the policies, we are able to assign permissions to users and use policies to control access to resources.
+
+We have identity based policies and resources based policies, it determines whether to authorize the request (allow/deny), we may allow or deny someone or some application to access a resource, everything in AWS is an API call, so we determine if we want to allow or deny permission for specific API calls like for example, when we try to lunch an EC2 instance we are calling/executing the running instances command, the success of this action will depend on having or not the permission to it.
+
